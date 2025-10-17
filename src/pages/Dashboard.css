@@ -1,0 +1,40 @@
+.dashboard-container {
+  text-align: center;
+  margin-top: 40px;
+  color: #fff;
+  background-color: #1b1b1b;
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+
+.crypto-table {
+  margin: 30px auto;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+.crypto-table th,
+.crypto-table td {
+  padding: 15px;
+  border-bottom: 1px solid #444;
+  text-align: center;
+  color: #fff;
+  vertical-align: middle;
+}
+
+.crypto-table tr:hover {
+  background-color: #222;
+  transition: background 0.2s ease-in-out;
+}
+
+.coin-icon {
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.update-time {
+  color: #aaa;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  font-style: italic;
+}
